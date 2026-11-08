@@ -491,7 +491,7 @@ local function CreateKeyModal(onSuccess)
 
         verifying = true
         VerifyBtn.Text = "Checking..."
-        StatusLabel.Text = "Validating key with PandaAuth..."
+        StatusLabel.Text = "Validating key..."
         StatusLabel.TextColor3 = Color3.fromRGB(180, 180, 185)
 
         task.spawn(function()
